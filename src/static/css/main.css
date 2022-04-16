@@ -16,11 +16,17 @@ nav {
   font-size: 20px;
   color: var(--bg-color-c1);
   text-decoration: none;
+  justify-content: left;
 }
 
 .navbar_title:hover {
   text-decoration: none;
   color: var(--bg-color-c2);
+}
+
+.nav_logo {
+  display: inline-block;
+  border-radius: 1rem;
 }
 
 .navbar_list {
@@ -72,7 +78,4 @@ footer {
   list-style-type: none;
   padding: 0.5rem 1rem;
   color: var(--bg-color-c2);
-  text-decoration: none;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out;
 }
