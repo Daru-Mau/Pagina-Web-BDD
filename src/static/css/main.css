@@ -68,7 +68,7 @@ footer {
 }
 
 .list {
-  display: inline-;
+  display: inline-flex;
   list-style-type: none;
   padding: 0.5rem 1rem;
   color: var(--bg-color-c2);
