@@ -24,7 +24,7 @@
 
   <body>
     <nav class="navbar p-3">
-      <div class="container-fluid">
+      <div class="container_fluid">
         <img
           src="https://areajugones.sport.es/wp-content/uploads/2022/02/aedad-1080x609.jpg"
           alt="anime-logo"
@@ -45,11 +45,17 @@
     </nav>
     <div class="container p-4">{% block content %} {% endblock %}</div>
   </body>
-  <footer id="footer p-2">
-    <ul class="list" >
-      <li id="member">Daniel Ruiz</li>
-      <li id="member">Roberto Maldonado</li>
-      <li id="member">Giuliano Frieri</li>
+  <footer id="footer">
+    <ul class="list">
+      <li id="member">
+        <a class="member_link" href="">Daniel Ruiz</a>
+      </li>
+      <li id="member">
+        <a class="member_link" href="">Roberto Maldonado</a>
+      </li>
+      <li id="member">
+        <a class="member_link" href="">Giuliano Frieri</a>
+      </li>
     </ul>
   </footer>
 </html>
