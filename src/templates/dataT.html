@@ -1,28 +1,62 @@
 {% extends "layout.html"%} {% block content %}
 <div class="jumbotron">
-  <h1 class="display-4">About</h1>
-  <p class="lead">Bienvenidos a esta, otra página más acerca del COVID-19</p>
-  <hr class="my -4" />
+  <h1 class="titulo_pg">Graphs</h1>
+  <p class="lead"></p>
   <p>
-    A lo largo de esta página web encontrarás distintas gráficas que reflejan
+    A lo largo de esta sección web encontrarás distintas gráficas que reflejan
     estadísticas acerca del COVID-19 al rededor del mundo.
   </p>
 </div>
-
-<img
-  class="img_graph"
-  src="../img/muertes_colombia.png"
-  alt="muertes_colombia"
-/>
-<img
-  class="img_graph"
-  src="../img/muertes_continente.png"
-  alt="muertes_continente"
-/>
-<img
-  class="img_graph"
-  src="../img/muertes_no_pobres.png"
-  alt="muertes_no_pobres"
-/>
-<img class="img_graph" src="../img/muertes_pobres.png" alt="muertes_pobres" />
+<hr class="my -4" />
+<div class="row">
+  <div class="column">
+    <img
+      class="img_graph"
+      src="static/img/casos_continente.png"
+      alt="casos_continente"
+    />
+  </div>
+  <div class="column">
+    <img
+      class="img_graph"
+      src="static/img/muertes_continente.png"
+      alt="muertes_continente"
+    />
+  </div>
+</div>
+<hr class="my -4" />
+<div class="row">
+  <div class="column">
+    <img
+      class="img_graph"
+      src="static/img/muertes_no_pobres.png"
+      alt="muertes_no_pobres"
+    />
+  </div>
+  <div class="column">
+    <img
+      class="img_graph"
+      src="static/img/muertes_pobres.png"
+      alt="muertes_pobres"
+    />
+  </div>
+</div>
+<hr class="my -4" />
+<div class="row">
+  <div class="column">
+    <img
+      class="img_graph"
+      src="static/img/casos_colombia.png"
+      alt="casos_colombia"
+    />
+  </div>
+  <div class="column">
+    <img
+      class="img_graph"
+      src="static/img/muertes_colombia.png"
+      alt="muertes_colombia"
+    />
+  </div>
+</div>
+<hr class="my -4" />
 {% endblock %}
