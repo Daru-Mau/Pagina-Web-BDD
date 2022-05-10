@@ -93,8 +93,11 @@ footer {
 }
 
 .img_graph {
-  display: inline-block;
-  width: 450px;
+  margin-bottom: 20px;
+  margin-left: 20rem;
+  align-items: right;
+  display: flex;
+  width: 550px;
 }
 
 .row {
